@@ -1,70 +1,44 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Esaamuday-Frontend TakeHome-Project
 
-## Available Scripts
+I was given a [API Information
+](https://docs.google.com/document/d/1z-ciAAvNtKwu3rJEBnam80IpQalFijb_0iQ9KGmgk0Y/edit#heading=h.y68xyry79tat)  using which I had to design a website
 
-In the project directory, you can run:
 
-### `npm start`
+## Deployed website 👇
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Website ](https://esaamudayfrontendpunith.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Techstack used:
+React.js:
+Frontend  Library
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Logo](https://imgs.search.brave.com/aR5JKSTGbboxQ-AgUTSQpk8nZZmlxlimoLuEMKTOoGk/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5J/NXptVTdtVE1NV3p5/MnFEaVhrNmp3SGFF/SyZwaWQ9QXBp)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Context Api : For state management 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Logo](https://imgs.search.brave.com/3HYvnEAu112PEbgJWSF8-s3tQ-AGGLILygdTVvDxdCA/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly9yb2xh/bmRndWlqdC5jb20v/Y29udGVudC9pbWFn/ZXMvMjAxOC8wNC9D/b250ZXh0VHJlZS0x/LnBuZw)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Material UI and BootStap: For styling of the app 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Logo](https://imgs.search.brave.com/J-KhqcUxvYUFe1adDl66RMeTpdJeIUvX9x_DAv7UEdI/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4w/ckhoa0pHalV3Mzdp/LXdHdGFrbTNBSGFI/YSZwaWQ9QXBp)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+![Logo](https://imgs.search.brave.com/vjeRk5-844qCk4qzxS80u0YYAPeMriTqshfqzBhK7O4/rs:fit:564:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC42/dTBHa3hoWW5HaVdE/QkhQX2V4S3VRSGFH/TyZwaWQ9QXBp)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Desktop view
+![Screenshot (4)](https://user-images.githubusercontent.com/110713318/187961520-6c4e6951-f7ba-4cfd-9968-16012829fb9d.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Movile view
+![WhatsApp Image 2022-09-01 at 9 28 41 PM](https://user-images.githubusercontent.com/110713318/187961879-e0ed73f0-05e1-4f26-9d50-e13a48f4156c.jpeg)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
