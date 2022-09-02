@@ -8,8 +8,10 @@ import Autocomplete from '../components/Autocomplete/Autocomplete';
 import { useContext } from 'react';
 import { AppState } from '../Context';
 
+// since single it is singlepage apllication we have only home page here
 const Home = () => {
   const {searchValue,display} =useContext(AppState);
+  //Home page is devided in to Hearder,Searchbar,AutoComplete component ,TableComponent and Sorting Component.
   return (
     <MDBContainer >
         <Header/>

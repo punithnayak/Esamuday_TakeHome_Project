@@ -7,11 +7,10 @@ import { useContext } from 'react';
 import { AppState } from '../Context';
 
 const Sorting = () => {
-
  
-
+    // calling State from Context Api
     const {sortValue,setSortValue,handleSort} =useContext(AppState);
-   
+   //Sorting Ui and Functionality
   return (
     <MDBRow>
       <MDBCol size='8'>

@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 
 import IconButton from '@mui/material/IconButton';
 import GitHubIcon from '@mui/icons-material/GitHub';
-
+// Header UI
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -25,7 +25,7 @@ export default function ButtonAppBar() {
             color="inherit"
             aria-label="menu"
             sx={{ mr: 2 }}
-            onClick={() => window.open('https://github.com/punithnayak/esaamuday_frontend_final')}
+            onClick={() => window.open('https://github.com/punithnayak/Esamuday_TakeHome_Project')}
           >
             <GitHubIcon sx={{ fontSize: 40 }}/>
           </IconButton>

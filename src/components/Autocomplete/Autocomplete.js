@@ -16,14 +16,16 @@ import axios from 'axios';
 const  Autocomplete=()=> {
  
   const [data,setData]=useState([]);
+  // calling State from Context Api
   const {searchValue,setSearchValue,setDisplay} =useContext(AppState);
+  // Using axios fetched api data for Autocomplete component
   const fetchPets=async()=>{
 
     return await axios.get(`https://60d075407de0b20017108b89.mockapi.io/api/v1/animals
       `).then((response) => {setData(response.data); }).catch((error) =>console.log(error));
 
   }
- 
+ //Debouncing
   useEffect(()=>{
     let timeout =setTimeout(()=>{
       fetchPets();

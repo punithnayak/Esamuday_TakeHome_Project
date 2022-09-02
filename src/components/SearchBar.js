@@ -10,7 +10,9 @@ import Stack from '@mui/material/Stack';
 import { useContext } from 'react';
 import { AppState } from '../Context';
 
+// Search UI and functionality
 const SearchBar = () => {
+  // calling State from Context Api
     const {setSearchValue,handleSearch,handleReset,searchValue ,setDisplay} =useContext(AppState);
   return (
    

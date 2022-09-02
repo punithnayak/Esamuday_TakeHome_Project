@@ -6,9 +6,14 @@ import Stack from '@mui/material/Stack';
 import { useContext } from 'react';
 import { AppState } from '../Context';
 
+
+// pagination ui and functionality
 const Pagination=()=>{
+  // calling State from Context Api
     const {setCurrentPage,currentPage} =useContext(AppState);
-    if (currentPage === 1){
+
+    //pagination logic on when the next and previos button should be displayed
+     if (currentPage === 1){
       return(
         <Button variant="contained" onClick={()=>{
          

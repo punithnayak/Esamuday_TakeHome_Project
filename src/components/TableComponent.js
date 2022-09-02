@@ -3,7 +3,10 @@ import { MDBTable,MDBTableHead,MDBRow,MDBCol, MDBTableBody } from 'mdb-react-ui-
 import { useContext } from 'react';
 import { AppState } from '../Context';
 const TableComponent = () => {
+  // calling State from Context Api
     const {data,getAge,Pagination} =useContext(AppState);
+
+    //Tabulation and rendering of data
   return (
     <div style={{marginTop: '50px'}}>
       
