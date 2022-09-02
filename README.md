@@ -7,7 +7,7 @@ I was given a [API Information
 
 ## Deployed website 👇
 
-[Website ](https://esaamudayfrontendpunith.netlify.app/)
+[Website ](https://esaamudaypunithnayakproject.netlify.app/)
 
 ## Techstack used:
 React.js:
