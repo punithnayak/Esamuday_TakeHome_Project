@@ -20,7 +20,9 @@ const Context = ({children}) => {
   const[currentPage,setCurrentPage]=useState(1);
   const[type,setType]=useState('');
   const[searchValue,setSearchValue]=useState('');
-  const[displayAutocomplete,setDisplayAutocomplete]=useState(false);
+
+  const [display,setDisplay]=useState(false);
+
 
   const fetchPets=async(pageNo,type) =>{
     if(type==='sort'){
@@ -87,12 +89,12 @@ const Context = ({children}) => {
     
     
       
-  },[currentPage]);
+  },[currentPage,sortValue]);
 
  
   return (
     <div>
-        <AppState.Provider value={{data,setData,sortValue,setSortValue,currentPage,setCurrentPage,type,setType,searchValue,setSearchValue,handleSearch,handleReset,getAge,handleSort,Pagination,displayAutocomplete,setDisplayAutocomplete}}>
+        <AppState.Provider value={{data,setData,sortValue,setSortValue,currentPage,setCurrentPage,type,setType,searchValue,setSearchValue,handleSearch,handleReset,getAge,handleSort,Pagination,display,setDisplay}}>
             {children}
             
         </AppState.Provider>

@@ -9,13 +9,13 @@ import { useContext } from 'react';
 import { AppState } from '../Context';
 
 const Home = () => {
-  const {searchValue} =useContext(AppState);
+  const {searchValue,display} =useContext(AppState);
   return (
     <MDBContainer >
         <Header/>
         <div className='d-flex input-group w-auto' style={{margin:"auto",padding:"15px",maxWidth:"400px",alignContent:"center"}} >
             <SearchBar/>
-            {searchValue.length>0 ? (<Autocomplete/>):('')}
+            {searchValue.length && display>0 ? (<Autocomplete/>):('')}
             
         
             </div>

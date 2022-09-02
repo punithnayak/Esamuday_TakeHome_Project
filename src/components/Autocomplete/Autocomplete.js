@@ -16,7 +16,7 @@ import axios from 'axios';
 const  Autocomplete=()=> {
  
   const [data,setData]=useState([]);
-  const {searchValue,setSearchValue} =useContext(AppState);
+  const {searchValue,setSearchValue,setDisplay} =useContext(AppState);
   const fetchPets=async()=>{
 
     return await axios.get(`https://60d075407de0b20017108b89.mockapi.io/api/v1/animals
@@ -37,7 +37,7 @@ const  Autocomplete=()=> {
       {data.filter((item)=>(item.name.toLowerCase().includes(searchValue.toLowerCase()))).map((item)=>(
         <>
       <ListItem alignItems="flex-start" key={item.id}>
-      <ListItemButton onClick={()=>{setSearchValue(item.name)}}>
+      <ListItemButton onClick={()=>{setSearchValue(item.name);setDisplay(false);}}>
         <ListItemAvatar>
           <Avatar alt="Remy Sharp" src={item.avatar} />
         </ListItemAvatar>

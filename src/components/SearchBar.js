@@ -11,7 +11,7 @@ import { useContext } from 'react';
 import { AppState } from '../Context';
 
 const SearchBar = () => {
-    const {setSearchValue,handleSearch,handleReset,searchValue} =useContext(AppState);
+    const {setSearchValue,handleSearch,handleReset,searchValue ,setDisplay} =useContext(AppState);
   return (
    
     <Stack>
@@ -26,7 +26,7 @@ const SearchBar = () => {
        
         placeholder="Search ....."
         inputProps={{ 'aria-label': 'search...' }}
-        onChange={(e)=> setSearchValue(e.target.value)}
+        onChange={(e)=>{ setSearchValue(e.target.value);setDisplay(true);}}
         value={searchValue}
       />
       <IconButton type="button" sx={{ p: '10px' }} aria-label="search"  onClick={()=> handleSearch()}>
